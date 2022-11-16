@@ -29,6 +29,7 @@
     float: inline-end;
     margin-right: 40px;
     text-decoration: none;
+    font-size: 15px;
 
 }
 
