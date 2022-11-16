@@ -3,8 +3,11 @@
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Artigos</a></li>
-        </ul>
+            
+        </ul> 
+        <a class="frase" href="https://www.youtube.com/watch?v=Akk_lQzGSog" target="_blank">Keep your head above the wather.</a>
     </div>
+   
 </template>
 
 <script>
@@ -19,6 +22,18 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+.frase {
+    color: var(--color1);
+    float: inline-end;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+
+.frase {
+    color: var(--color1)
 }
 
 :root {
