@@ -5,7 +5,7 @@
             <li><a href="">Artigos</a></li>
             
         </ul> 
-        <a class="frase" href="https://www.youtube.com/watch?v=Akk_lQzGSog" target="_blank">Keep your head above the wather.</a>
+        <a class="frase" href="https://www.youtube.com/watch?v=Akk_lQzGSog" target="_blank">Keep your head above the water.</a>
     </div>
    
 </template>
