@@ -71,7 +71,7 @@
 
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 480px) and (min-width:320px) {
     body {
         width: 100%;
         height: 100%;
@@ -81,13 +81,17 @@
     width: 100%;
     font-size: 22px;
     overflow: hidden;
+    }
 
+    .frase {
+        font-size: 10px;
+        float: right;
     }
 
 }
 
 
-@media screen and (max-width:896px) {
+@media screen and (max-width:896px) and (min-width:412px) {
     body {
         width: 100%;
         height: 100%;

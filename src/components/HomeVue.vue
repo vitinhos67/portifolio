@@ -6,7 +6,7 @@
        <header>
             <h1>Deixe apresentar-me</h1>
             <p>Prazer, me chamo Victor, estou no final do ensíno medio e busco por uma oportunidade na área de desolvimento web, mais voltado para o back end em que tenho maior conformidade. Estudo Javascript e seus paradigmas. <br/>
-            Computadores sempre estiveram presente na minha vida e sempre gostei muito de me envolver com eles, portanto, escolhi a área da tecnologia para prosseguir com uma carreira profissional e pretento despravar da melhor forma possível. Tentarei me especializar através de uma universidade federal.
+            Computadores sempre estiveram presente na minha vida e sempre gostei muito de me envolver com eles, portanto, escolhi a área da tecnologia para prosseguir com uma carreira profissional e pretento desbravar da melhor forma possível. Tentarei me especializar através de uma universidade federal.
             </p>
             
         </header>
@@ -24,6 +24,7 @@
             <li>Node</li>
             <li>Express</li>
             <li>Docker</li>
+            <li>Nginx</li>
         </ul>
         
         <br/>
@@ -50,14 +51,14 @@
     <a href="https://medium.com/@santtosvictor42" target="_blank">Medium</a> /
     <a href="https://dev.to/vitinhos67" target="_blank">Dev-to</a> /
 
-</div>    
 
-<p class="curriculo-p">Clique aqui para ter acesso ao meu curriculo: </p>
-
-
+    <p class="curriculo-p"> Clique aqui para ter acesso ao meu curriculo:</p>
     <a href="https://drive.google.com/file/d/1GEmqKmwYjUlHOmK1zX1b09IDLLg_54mI/view?usp=share_link" target="_blank">
        <img src="../assets/pdf.png" alt="Curriculo">
     </a>
+</div>    
+
+
 
 
 </template>
@@ -147,15 +148,11 @@ a button {
 }
 
 
-@media screen and (max-width:412px){
+@media screen and (max-width: 480px) and (min-width:320px){
 
-
-body {
-    width: 100%;
-}
 
 #grid-1 {
-    width: 400px;
+    width: 300px;
     margin-top: -40px;
 }
 
@@ -191,14 +188,16 @@ p {
     
 }
 
-@media screen and (min-width:436px) and (max-width:882px) {
+@media screen and(max-width:360px) and (min-width: 800px)  {
     body {
         width: 100%;
         height: 100%;
     }
 
     #grid-1 {
-    width: 470px;
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -208,7 +207,31 @@ h1 {
 }
 
 .curriculo-p {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media screen and (min-width:436px) and (max-width:882px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    #grid-1 {
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.curriculo-p {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
