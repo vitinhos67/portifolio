@@ -2,7 +2,7 @@
     <div class="top-bar">
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Artigos</a></li>
+        
             
         </ul> 
         <a class="frase" href="https://www.youtube.com/watch?v=Akk_lQzGSog" target="_blank">Keep your head above the water.</a>
