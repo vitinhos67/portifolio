@@ -155,7 +155,9 @@ a button {
 
 #grid-1 {
     width: 300px;
-    margin-top: -40px;
+    margin-top: 0px;
+    
+    
     
 }
 
@@ -202,6 +204,7 @@ p {
     width: 430px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
@@ -225,6 +228,7 @@ h1 {
     width: 470px;
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 
