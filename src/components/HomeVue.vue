@@ -58,8 +58,7 @@
     </a>
 </div>    
 
-
-
+<br>
 
 </template>
 
@@ -84,7 +83,7 @@ export default {
 
 
 :root{
-    --primary-color: #eeede7;
+    --primary-color: #eeeeee;
     --color1 : #917f6e;
     --text :#2d2d2d;
     --color4 : #efe1d1;
@@ -100,11 +99,10 @@ font-family: 'Ledger', serif;
 li {
     list-style: none;
 }
-
-
 #grid-1 {
     
     width: 800px;
+    background-color: #f5f5f3;
     height: 100%;
     padding: 40px 40px 40px 40px;
     display: block;
@@ -112,6 +110,10 @@ li {
     margin-left: auto;
     margin-right: auto;
     float: initial;
+    border-left: 1px var(--color1) solid;
+    border-right: 1px var(--color1) solid;
+    border-top: 1px var(--color1) solid;
+    box-shadow: 1px 1px 4px var(--color1);
 
 }
 h1 {
@@ -154,6 +156,7 @@ a button {
 #grid-1 {
     width: 300px;
     margin-top: -40px;
+    
 }
 
 h1 {
@@ -173,7 +176,8 @@ h1 {
     #grid-1 {
     width: 300px;
     float: none;
-    margin-top: -40px;
+    margin-top: 0px;
+    
 }
 
 h1 {
