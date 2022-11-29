@@ -35,6 +35,11 @@
             <li>não relacional (mongoDB)</li>
             <li>Redis como armazemamento em cache</li>
         </ul>
+
+        <h4>Metodologias Àgeis</h4>
+        <ul>
+            <li>Scrum</li>
+        </ul>
         <br/>
         <p>Se especializar em novas tecnologias são sempre um desafio, 
         com isso, novas responsabilidades também, é isto sempre será bem-vindo.</p>
