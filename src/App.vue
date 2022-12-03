@@ -1,21 +1,16 @@
 <template>
-  <HomeVue/>
+    <HomeVue />
 </template>
 
 <script>
-
-import HomeVue from './components/HomeVue.vue';
-
+import HomeVue from './components/HomeVue.vue'
 
 export default {
-  components: {
-    HomeVue
-},
-
+    components: {
+        HomeVue,
+    },
 }
 </script>
-<style>
-
-</style>
+<style></style>
 
 // v-bind:key IMPORTANTE COLOCAR TODA VEZ QUE USA LOOPS
