@@ -75,7 +75,7 @@
                 <a href="https://twitter.com/victorsanttos67" target="_blank"
                     ><img class="social" src="../assets/twitter.png" alt="Twitter"
                 /></a>
-                <a href="https://www.linkedin.com/in/victor-santos-4b0a8a161/" target="_blank"
+                <a href="https://www.linkedin.com/in/victorsanttos/" target="_blank"
                     ><img class="social" src="../assets/linkedin.png" alt="Linkedin"
                 /></a>
                 <a href="https://medium.com/@santtosvictor42" target="_blank"
